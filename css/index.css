@@ -1,0 +1,38 @@
+:root {
+    --bg-color: #7e7b7b; /* Gris claro de fondo */
+    --text-color: #ffffff;
+    --accent-color: #ffffff;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid var(--text-color);
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}

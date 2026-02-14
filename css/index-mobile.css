@@ -97,16 +97,21 @@ p,
     flex-direction: column;
     padding: 0 !important;
     position: relative;
+    overflow: hidden;
+    /* Ensure fixed height image doesn't overflow if we set it crazy high, or just for cleanliness */
 }
 
 #container-5 aside:first-of-type {
     position: absolute;
-    /* Remove sticky */
-    height: 50vh;
-    /* Half screen height for image */
+    top: 0;
+    left: 0;
     width: 100%;
+    /* Fix height to avoid resizing/zooming during accordion animation */
+    height: 100vh;
     opacity: 0.1;
-    height: 100%;
+    z-index: 0;
+    /* Ensure it stays behind */
+    pointer-events: none;
 }
 
 #container-5 aside:first-of-type img {
@@ -115,7 +120,7 @@ p,
 }
 
 #container-5 .subtitle {
-    margin: 3rem 1.5rem 2rem 3rem;
+    margin: 3rem 1.5rem 2rem 2rem;
     z-index: 1;
 }
 
@@ -134,6 +139,13 @@ p,
     text-align: center;
     align-self: center;
     margin-bottom: 2rem;
+}
+
+#feedback-grid h2 br,
+#feedback-grid p br,
+#container-7 div h2 br,
+#container-7 div p br {
+    display: none;
 }
 
 #fdb1,

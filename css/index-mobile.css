@@ -120,20 +120,20 @@ p,
 }
 
 #container-5 aside:last-of-type {
-    padding: 0 3rem 4rem 3rem;
+    padding: 0 2rem 4rem 2rem;
 }
 
 /* Container 6 - Feedback */
 #feedback-grid {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 #feedback-grid h2,
 #feedback-grid p {
     text-align: center;
     align-self: center;
+    margin-bottom: 2rem;
 }
 
 #fdb1,
@@ -142,7 +142,7 @@ p,
     grid-column: auto;
     grid-row: auto;
     align-self: center;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
 }
 

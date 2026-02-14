@@ -154,6 +154,8 @@ p {
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url(../images/fondoContainer4.png);
+    background-size: cover;
 }
 
 #container-4 .subtitle {
@@ -310,7 +312,7 @@ p {
 #container-1 {
     background-color: var(--bg-color);
     height: fit-content;
-    background-image: url(../images/fondoContainer4.png);
+    background-image: url(../images/fondoContainer1r.png);
     background-size: cover;
 }
 

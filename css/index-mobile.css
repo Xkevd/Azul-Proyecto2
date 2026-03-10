@@ -159,8 +159,32 @@ p,
 }
 
 /* Container 7 - Pricing */
+#container-7 .price-info {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2.5rem 1rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
 #container-7 .price-amount {
-    font-size: 4rem;
+    font-size: 4rem !important;
+    line-height: 1;
+}
+
+#container-7 .price-label {
+    font-size: 0.9rem !important;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+}
+
+#container-7 .subtitle {
+    font-size: 2.2rem !important;
+}
+
+#container-7 .btn-1 {
+    width: 100%;
+    max-width: 300px;
 }
 
 /* Container 8 - FAQ */

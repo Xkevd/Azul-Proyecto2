@@ -103,6 +103,12 @@ p {
 .italic-serif {
     font-family: 'The Seasons', serif;
     font-style: italic;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+
+#container-3 .italic-serif,
+#container-7 .italic-serif {
     font-weight: 300;
 }
 
